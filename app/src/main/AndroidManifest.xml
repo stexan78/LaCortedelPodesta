@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" package="com.stefanoansaldi.lacortedelpodesta">
+
+<!-- Permesso per l'accesso a Internet -->
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.play.integrity.BIND_INTEGRITY_SERVICE" />
+
+<application
+android:allowBackup="true"
+android:dataExtractionRules="@xml/data_extraction_rules"
+android:fullBackupContent="@xml/backup_rules"
+android:icon="@drawable/logo_corte_podesta"
+android:label="@string/app_name"
+android:roundIcon="@drawable/logo_corte_podesta"
+android:supportsRtl="true"
+android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+tools:targetApi="31">
+
+<!-- Abilitare libreria Apache HTTP per la compatibilità -->
+<uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+<activity
+    android:name=".MainActivity"
+    android:exported="true"
+    android:label="@string/app_name"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+
+</application>
+
+    </manifest>

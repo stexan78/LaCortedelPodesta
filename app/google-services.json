@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998598035430",
+    "project_id": "la-corte-del-podesta-3527a",
+    "storage_bucket": "la-corte-del-podesta-3527a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998598035430:android:d8cca74d1eb43c6ae37827",
+        "android_client_info": {
+          "package_name": "com.stefanoansaldi.lacortedelpodesta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEUW8FAG1LlxnQXMS4C6wbCUvPw2Ea77c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
